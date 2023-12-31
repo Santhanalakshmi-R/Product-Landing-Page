@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    background-color:#eee;
+    font-family:arial;
+  }
+  header{
+    height:100px;
+    width:100%;
+    background-color:#eee;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    position:fixed;
+    top:0;
+    padding:0px 20px;
+  }
+  
+  #header-img{
+    height:40px;
+  }
+  
+  nav ul{
+    width:300px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-left:200px;
+  }
+  
+  li{
+    list-style:none;
+  }
+  
+  .nav-link{
+    text-decoration:none;
+    font-size:1.3rem;
+    color:black;
+  }
+  .about{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    text-align:center;
+  }
+  
+  .intro-class{
+    margin-bottom:15px;
+  }
+  
+  #subtitle{
+    font-size:2.1rem;
+    font-weight:570;
+    line-height:1.7;
+  }
+  
+  #email{
+    width:25rem;
+    padding:9px;
+  }
+  
+  #email::placeholder{
+    font-size:1.1rem;
+  }
+  
+  #submit{
+    margin:5px;
+    width:15rem;
+    padding:8px;
+    border:none;
+    background:rgb(253,200,6);
+    font-size:1.3rem;
+    font-family:sans-serif;
+    font-weight:800;
+    cursor:pointer;
+    transition-property: background ;
+    transition-timing-function:ease-in;
+    transition-duration:0.3s;
+  }
+  
+  #submit:hover{
+    background:darkorange;
+  }
+  
+  .feature{
+    display:flex;
+    flex-direction:row;
+    margin:100px auto;
+  }
+  .content{
+    padding:10px auto;
+  }
+  .article-h1{
+    font-size:1.8rem;
+    font-weight:550;
+    line-height:1.5;
+  }
+  .feature p{
+    font-size:1.1rem;
+  }
+  
+  i{
+    margin:auto 50px;
+    color:darkorange;
+    width:40px;
+    height:30px;
+  }
+  
+  #how_it_works{
+    display:block;
+    text-align:center;
+    margin-bottom:100px;
+  }
+  
+  #pricing{
+   display:flex;
+   justify-content:space-around;
+  }
+  
+  .container{
+    border:1px solid black;
+    border-radius:5px;
+    width:330px;
+    height:270px;
+    padding:20px auto;
+    line-height:2;
+    text-align:center;
+  }
+  
+  .pricing-title{
+    background-color:#ddd;
+    font-weight:bold;
+    padding:10px;
+  }
+  
+  #select{
+    background-color:rgb(253,200,6);
+    margin:10px auto;
+    width:80px;
+    padding:13px;
+    font-size:1rem;
+    border:none;
+    text-transform:uppercase;
+    border-radius:4px;
+    cursor:pointer;
+    transition-property: background ;
+    transition-timing-function:ease-in;
+    transition-duration:0.3s;
+  }
+  
+  #select:hover{
+    background:darkorange;
+  }
+  
+  footer{
+    margin-top:40px; 
+    background:#ddd;
+    padding-top:20px;
+    padding-bottom:20px;
+    bottom:0;
+  }
+  
+  ul{
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  footer li{
+    padding:0px 10px;
+    margin:5px;
+    font-size:1.2rem;
+  }
+  
+  footer p{
+    display:flex;
+    justify-content:flex-end;
+    font-size:1.2rem;
+    margin:0px 15px;
+    color:rgb(140,140,140);
+  }
+  
+  @media screen and (max-width:800px){
+  
+    header{
+    height:100px;
+    width:100%;
+    background-color:#eee;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    position:fixed;
+    top:0;
+    padding:0px 20px;
+  }
+  
+  #header-img{
+    height:30px;
+  }
+  
+  nav ul{
+    height:100%;
+     display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-left:200px;
+  }
+  
+  .fa{
+    display:none;
+  }
+  
+  .content{
+    margin:0;
+    padding:0;
+  }
+  
+  .article-h1{
+    font-size:1.5rem;
+    font-weight:550;
+    line-height:1.8;
+    text-align:center;
+  }
+  
+  .feature p{
+    font-size:1rem;
+    text-align:center;
+  }
+  
+  #pricing{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 0 auto;
+  }
+  .container{
+    border:1px solid black;
+    border-radius:5px;
+    width:330px;
+    height:270px;
+    padding:20px auto;
+    line-height:2;
+    margin-bottom:15px;
+  }
+  }
